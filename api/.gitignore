@@ -1,0 +1,33 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables (segredos locais — .env.example fica versionado)
+.env
+.env.local
+.env.*.local
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
+
+# Testes / cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ferramentas de tipo/lint
+.mypy_cache/
+.ruff_cache/
+
+# Editores/SO
+.vscode/
+.idea/
+.DS_Store
